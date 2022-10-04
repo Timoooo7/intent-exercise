@@ -36,13 +36,13 @@
                 app:layout_constraintTop_toTopOf="parent"
                 />
 
-            <ImageView
-                android:id="@+id/imageView"
+            <Button
+                android:id="@+id/btnImage"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 app:layout_constraintBottom_toBottomOf="@+id/image_profile"
                 app:layout_constraintEnd_toEndOf="@+id/image_profile"
-                app:srcCompat="@drawable/edit_icon"
+                android:background="@drawable/edit_icon"
                 />
 
             <com.google.android.material.textfield.TextInputLayout
